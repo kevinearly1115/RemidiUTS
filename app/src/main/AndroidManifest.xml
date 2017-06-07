@@ -27,6 +27,10 @@
         <activity
             android:name=".Navigation3Activity"
             android:label="@string/title_activity_navigation3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Navigation4Activity"
+            android:label="@string/title_activity_navigation4"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

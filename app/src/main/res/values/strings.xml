@@ -8,4 +8,8 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_navigation2">Navigation2Activity</string>
     <string name="title_activity_navigation3">Navigation3Activity</string>
+    <string name="title_activity_navigation4">Navigation4Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
 </resources>
