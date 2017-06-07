@@ -28,5 +28,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        findViewById(R.id.nav3).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Navigation3Activity.class);
+
+                startActivity(intent);
+            }
+        });
     }
 }

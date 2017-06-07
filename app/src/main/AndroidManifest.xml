@@ -23,6 +23,10 @@
         <activity
             android:name=".Navigation2Activity"
             android:label="@string/title_activity_navigation2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Navigation3Activity"
+            android:label="@string/title_activity_navigation3"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
