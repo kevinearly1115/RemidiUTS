@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="xir3n15.remidiuts.telkomschid.remidiuts.MainActivity">
+
+
+    <Button
+        android:id="@+id/nav1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="64dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="169dp"
+        android:text="Navigation 1" />
+
+    <Button
+        android:id="@+id/nav2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/nav1"
+        android:layout_marginLeft="64dp"
+        android:layout_marginStart="64dp"
+        android:layout_toEndOf="@+id/nav1"
+        android:layout_toRightOf="@+id/nav1"
+        android:text="Navigation 2" />
+
+    <Button
+        android:id="@+id/nav3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/nav1"
+        android:layout_alignStart="@+id/nav1"
+        android:layout_below="@+id/nav1"
+        android:layout_marginTop="61dp"
+        android:text="Navigation 3" />
+
+    <Button
+        android:id="@+id/nav4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/nav3"
+        android:layout_alignLeft="@+id/nav3"
+        android:layout_alignStart="@+id/nav2"
+        android:text="Navigation 4" />
+</RelativeLayout>
